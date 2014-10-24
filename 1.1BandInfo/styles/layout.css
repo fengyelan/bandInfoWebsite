@@ -1,0 +1,175 @@
+*{
+    padding : 0;
+    margin : 0
+}
+body{
+    margin : 1em 10%;
+    background-image: url("../images/background.gif");
+    background-position: top left;
+    background-attachment: fixed;
+    background-repeat: repeat-x;
+    max-width: 80em;
+    font-size: 76%;
+    font-family: "Helvetica","arial",sans-serif;
+    color: #fb5;
+    background-color: #334;
+}
+#header{
+    background-color: #334;
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    color:#ec4;
+    border-width: 0.1em;
+    border-style: solid;
+    border-color: #667;
+    border-bottom-width: 0;
+}
+#header.home{
+    background-image: url("../images/guitarist.gif");
+}
+#header.about{
+    background-image: url("../images/lineup.gif");
+}
+#header.photos{
+    background-image: url("../images/basshead.gif");
+}
+#header.live{
+    background-image: url("../images/bassist.gif");
+}
+#header.contact{
+    background-image: url("../images/drummer.gif");
+}
+#navigation{
+    background-image : url("../images/navbar.gif");
+    background-repeat: repeat-x;
+    background-position: bottom left;
+   background-color: #789;
+    border-width: 0.1em;
+    border-style: solid;
+    border-color: #667;
+    color:#455;
+    font-family: "Lucida Grande","helvetica","arial",sans-serif;
+    border-bottom-width: 0;
+    border-top-width:0;
+    padding-left: 10%;
+}
+#navigation ul {
+    width : 100%;
+    border-left-width: 0.1em;
+    border-left-style: solid;
+    overflow: hidden;
+}
+#navigation ul li{
+    display: inline;
+}
+#navigation ul li a{
+    display: block;
+    float : left;
+    padding: 0.5em 2em;
+    text-decoration: none;
+    font-weight: bold;
+    border-right-width:0.1em ;
+    border-right-style: solid;
+    color:white
+}
+#navigation ul li a:hover{
+    color: #667;
+    background-color: #fb5;
+}
+#imagegallery{
+    padding-top: 2em;
+}
+#imagegallery li{
+    display: inline;
+}
+#navigation a.here{
+    color:#eef;
+    background-color: #EC5D4E;
+}
+#content{
+    padding: 2em 10%;
+    background-color: #edc;
+    color:#223;
+    line-height: 1.8em;
+}
+h1{
+    font-weight: normal;
+    font-family: "Georgia","Times New Roman",sans-serif;
+    font-size: 2.4em;
+}
+#info{
+    padding: 2em 0;
+}
+#info a{
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #fb5;
+}
+form{
+    display: block ;
+}
+label{
+    display: block;
+}
+fieldset{
+    border:0;
+}
+form p{
+    margin:2em 0;
+    display: block;
+}
+th{
+    color : #edc;
+    background-color: #455;
+}
+tr td{
+    color: #223;
+    background-color: #eb6;
+}
+tr.odd td{
+    color:#223;
+    background-color:#83EAB6;
+}
+tr.highlight td{
+    color: #223;
+    background-color: #87CF4D;
+}
+td{
+    padding: 0.5em 3em;
+}
+table{
+    padding-top: 2em;
+}
+#aboutList{
+    padding-top:1em;
+}
+#aboutList li a {
+    background-color:#eb6 ;
+    font-weight: bold;
+    text-decoration: none;
+}
+#aboutList{
+    list-style-type: square;
+}
+#header_abbr{
+    padding: 1em 0;
+}
+#slideshow{
+    width:150px;
+    height: 150px;
+    position:relative;
+    overflow: hidden;
+}
+#preview{
+    position:absolute;
+    border-width: 0;
+    outline-width: 0;
+}
+img#frame {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    border-width: 0;
+    outline-width: 0;
+}
